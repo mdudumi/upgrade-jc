@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b5360">
+  <title>UPGRADE • Kampi Jalë 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="brand-mark">U</div><div><strong>UPGRADE</strong><span>Kampi Jalë • 15–19 Qershor</span></div></div>
+    <nav class="nav-list" id="mainNav"></nav>
+    <div class="sidebar-note"><strong>Romakëve 12:2</strong><p>“Transformohuni me anë të ripërtëritjes së mendjes suaj.”</p></div>
+  </aside>
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+  <main class="main-area">
+    <header class="topbar">
+      <button class="icon-button" id="menuButton" aria-label="Hap menunë">☰</button>
+      <div><small>KAMPI UPGRADE</small><h1 id="pageTitle">Detajet e organizimit</h1></div>
+      <button class="lock-all" id="lockAll">🔐 <span>Blloko shërbesat</span></button>
+    </header>
+
+    <section class="view active" id="detailsView">
+      <div class="hero"><div><span class="eyebrow">JALË • 15–19 QERSHOR</span><h2>UPGRADE</h2><p>“Mos u përshtatni me këtë botë, por transformohuni me anë të ripërtëritjes së mendjes suaj.”</p><strong>Romakëve 12:2</strong></div><div class="hero-badge">🏕️</div></div>
+      <div class="summary-grid"><article>🚙 <div><strong>6 makina</strong><small>Transport i organizuar</small></div></article><article>⛺ <div><strong>11 çadra</strong><small>Plus shtëpiza</small></div></article><article>📅 <div><strong>5 ditë</strong><small>Program i plotë</small></div></article><article>🎤 <div><strong>8 shërbesa</strong><small>Me password të veçantë</small></div></article></div>
+
+      <section class="content-card"><div class="section-heading"><div><span class="section-kicker">TRANSPORTI</span><h3>Makinat dhe pasagjerët</h3></div><input class="search-input" id="carSearch" placeholder="Kërko person ose makinë…"></div><div class="car-grid" id="carGrid"></div></section>
+      <section class="content-card"><div class="section-heading"><div><span class="section-kicker">AKOMODIMI</span><h3>Shtëpizat dhe çadrat</h3></div><input class="search-input" id="accommodationSearch" placeholder="Kërko person ose njësi…"></div><div class="day-tabs" id="accommodationTabs"></div><div class="accommodation-grid" id="accommodationGrid"></div></section>
+    </section>
+
+    <section class="view" id="dayView">
+      <div class="day-hero"><div><span class="eyebrow" id="dayDate"></span><h2 id="dayTitle"></h2><p id="dayTheme"></p><strong id="dayVerse"></strong></div><div class="day-symbol">✦</div></div>
+      <div class="day-layout">
+        <div class="day-main">
+          <section class="content-card schedule-card"><div class="section-heading"><div><span class="section-kicker">PROGRAMI I DITËS</span><h3 id="scheduleTitle"></h3><p>Programi është i hapur për të gjithë.</p></div></div><div class="timeline" id="scheduleList"></div></section>
+          <section class="services-section"><div class="section-heading"><div><span class="section-kicker">SHËRBESAT</span><h3>Predikimet e ditës</h3><p>Çdo shërbesë hapet me password-in e vet.</p></div></div><div id="servicesList"></div></section>
+        </div>
+        <aside class="day-side"><article class="side-card"><span>✨</span><h3>Tema e ditës</h3><p id="dayKeyword"></p></article><article class="side-card"><span>📝</span><h3>Shënimet e mia</h3><textarea id="personalNotes" rows="9" placeholder="Shkruaj këtu…"></textarea><small>Ruhen automatikisht në këtë pajisje.</small></article></aside>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div class="modal-overlay" id="passwordModal" hidden><div class="modal"><button class="close-modal" id="closeModal">×</button><div class="modal-icon">🔐</div><span class="section-kicker">SHËRBESË E MBROJTUR</span><h2 id="modalTitle">Hap shërbesën</h2><p>Vendos password-in për të parë predikimin, pyetjet, lojën dhe sfidën.</p><form id="passwordForm"><label>Password</label><div class="password-row"><input id="passwordInput" type="password" required autocomplete="off"><button type="button" id="togglePassword">👁</button></div><p class="error" id="passwordError"></p><button class="primary-action">Hap shërbesën</button></form></div></div>
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
