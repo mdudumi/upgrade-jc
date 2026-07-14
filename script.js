@@ -3,15 +3,15 @@ const cars = [
   {driver:'Ylli', type:'Nissan Qashqai', seats:5, people:['Ylli','Arta','Joel','Endri','Dojna']},
   {driver:'Mario', type:'Ford', seats:5, people:['Mario','Rexhina','Erla','Albora','Helio']},
   {driver:'Niku', type:'Ford', seats:5, people:['Niku','Gelsi','Asiel','Jola','Leonard']},
-  {driver:'Landi', type:'Golf', seats:5, people:['Denisa','Dea','Elda','Bertina','Landi']},
+  {driver:'Landi', type:'Golf', seats:5, people:['Denisa','Elda','Bertina','Landi']},
   {driver:'Simoni', type:'Hyundai', seats:5, people:['Simoni','Lori','Solen','Luka']}
 ];
 
 const accommodation = {
   merkure:{'Shtëpiza':['Erla','Rexhina','Elona Q','Albora'],'Çadra 1':['Leonard','Helio'],'Çadra 2':['Ylli','Arta'],'Çadra 3':['Niku','Gelsi'],'Çadra 4':['Asiel','Joel'],'Çadra 5':['Nevila','Laura'],'Çadra 6':['Martin','Elona'],'Çadra 7':['Eljon','Sejla'],'Çadra 8':['Endri','Mario']},
-  enjte:{'Shtëpiza':['Erla','Rexhina','Elona Q','Bertina'],'Çadra 1':['Albora','Helio'],'Çadra 2':['Ylli','Arta'],'Çadra 3':['Niku','Gelsi'],'Çadra 4':['Asiel','Joel'],'Çadra 5':['Nevila','Laura','Elda'],'Çadra 6':['Martin','Elona'],'Çadra 7':['Eljon','Sejla'],'Çadra 8':['Endri','Mario'],'Çadra 9':['Leonard','Landi'],'Çadra 10':['Denisa','Dea']},
-  premte:{'Shtëpiza':['Erla','Dojna','Jola','Bertina'],'Çadra 1':['Albora','Helio'],'Çadra 2':['Ylli','Arta'],'Çadra 3':['Niku','Gelsi'],'Çadra 4':['Asiel','Joel'],'Çadra 5':['Nevila','Laura','Elda'],'Çadra 6':['Martin','Elona'],'Çadra 7':['Eljon','Sejla'],'Çadra 8':['Endri','Mario'],'Çadra 9':['Leonard','Landi'],'Çadra 10':['Denisa','Dea'],'Çadra 11':['Rexhina','Elona Q']},
-  shtune:{'Shtëpiza':['Erla','Dojna','Jola','Bertina'],'Çadra 1':['Albora','Helio'],'Çadra 2':['Ylli','Arta'],'Çadra 3':['Niku','Gelsi'],'Çadra 4':['Asiel','Joel'],'Çadra 5':['Nevila','Laura','Elda'],'Çadra 6':['Martin','Elona'],'Çadra 7':['Eljon','Sejla'],'Çadra 8':['Endri','Mario'],'Çadra 9':['Leonard','Landi'],'Çadra 10':['Denisa','Dea'],'Çadra 11':['Rexhina','Elona Q']}
+  enjte:{'Shtëpiza':['Erla','Rexhina','Elona Q','Bertina'],'Çadra 1':['Albora','Helio'],'Çadra 2':['Ylli','Arta'],'Çadra 3':['Niku','Gelsi'],'Çadra 4':['Asiel','Joel'],'Çadra 5':['Nevila','Laura'],'Çadra 6':['Martin','Elona'],'Çadra 7':['Eljon','Sejla'],'Çadra 8':['Endri','Mario'],'Çadra 9':['Leonard','Landi'],'Çadra 10':['Denisa','Elda']},
+  premte:{'Shtëpiza':['Erla','Dojna','Jola','Bertina'],'Çadra 1':['Albora','Helio'],'Çadra 2':['Ylli','Arta'],'Çadra 3':['Niku','Gelsi'],'Çadra 4':['Asiel','Joel'],'Çadra 5':['Nevila','Laura'],'Çadra 6':['Martin','Elona'],'Çadra 7':['Eljon','Sejla'],'Çadra 8':['Endri','Mario'],'Çadra 9':['Leonard','Landi'],'Çadra 10':['Denisa','Elda'],'Çadra 11':['Rexhina','Elona Q']},
+  shtune:{'Shtëpiza':['Erla','Dojna','Jola','Bertina'],'Çadra 1':['Albora','Helio'],'Çadra 2':['Ylli','Arta'],'Çadra 3':['Niku','Gelsi'],'Çadra 4':['Asiel','Joel'],'Çadra 5':['Nevila','Laura'],'Çadra 6':['Martin','Elona'],'Çadra 7':['Eljon','Sejla'],'Çadra 8':['Endri','Mario'],'Çadra 9':['Leonard','Landi'],'Çadra 10':['Denisa','Elda'],'Çadra 11':['Rexhina','Elona Q']}
 };
 
 const days = {
